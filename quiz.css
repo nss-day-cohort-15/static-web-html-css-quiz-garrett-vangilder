@@ -1,3 +1,9 @@
-b {
-  background: red;
+
+.product {
+  width:30%;
+}
+
+.resize{
+    width:300px; 
+    height: auto;
 }
