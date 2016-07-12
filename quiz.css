@@ -44,6 +44,7 @@
 @media (min-width: 600px) {
   body {
   display: flex;
+  flex-wrap: wrap;
 }
 .product {
     width: 30%
