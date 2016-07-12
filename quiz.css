@@ -1,21 +1,22 @@
 
 .product {
-  width:30%;
   border: 1px solid lightblue;
   border-radius: 5px;
   margin:.75em;
   padding: 10px;
   font-family: 'Lora', serif;
+  clear: 
 }
 
 .product h1 {
   border-bottom: 1px dotted lightgrey;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
+  padding-bottom: 15px;
 }
 
 .resize{
-    width:300px; 
+    width:100%; 
     display: block;
     height: auto;
     margin: auto;
@@ -26,7 +27,8 @@
   text-align: justify;
 }
 
-.pricing {
+.pricing p {
+  font-family: 'Lora', serif;
   font-weight: 700;
 }
 
@@ -35,12 +37,20 @@
   color:yellow;
 }
 
- section footer: {
-  font-size: 0.5em;
+ .product footer: {
+  font-size: 50%;
 }
 
 @media (min-width: 600px) {
   body {
   display: flex;
 }
+.product {
+    width: 30%
+}
+
+@media (max-width: 600px) {
+  .product {
+    width: 100%
+  }
 }
