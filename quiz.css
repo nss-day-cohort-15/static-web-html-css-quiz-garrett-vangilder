@@ -1,9 +1,46 @@
 
 .product {
   width:30%;
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  margin:.75em;
+  padding: 10px;
+  font-family: 'Lora', serif;
+}
+
+.product h1 {
+  border-bottom: 1px dotted lightgrey;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .resize{
     width:300px; 
+    display: block;
     height: auto;
+    margin: auto;
+}
+
+
+.description {
+  text-align: justify;
+}
+
+.pricing {
+  font-weight: 700;
+}
+
+.availability {
+  background: grey;
+  color:yellow;
+}
+
+ section footer: {
+  font-size: 0.5em;
+}
+
+@media (min-width: 600px) {
+  body {
+  display: flex;
+}
 }
