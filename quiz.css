@@ -1,3 +1,10 @@
+body {
+  margin-left: 1rem;
+}
+body .product {
+  margin: 5px;
+  display: inline-block;
+}
 
 .product {
   border: 1px solid lightblue;
@@ -5,7 +12,7 @@
   margin:.75em;
   padding: 10px;
   font-family: 'Lora', serif;
-  clear: 
+  margin-top: 5em;
 }
 
 .product h1 {
@@ -15,7 +22,7 @@
   padding-bottom: 15px;
 }
 
-.resize{
+.product-image{
     width:100%; 
     display: block;
     height: auto;
@@ -41,17 +48,29 @@
   font-size: 50%;
 }
 
+
 @media (min-width: 600px) {
-  body {
-  display: flex;
-  flex-wrap: wrap;
+/*.left {
+  float:left;
 }
+.right {
+  float: right;
+}
+
 .product {
-    width: 30%
+    width: 30%;
+    margin: 10em; }*/
+.product {
+  display: flex;
+  flex-wrap:wrap;
+  width:28%;
+}
+
 }
 
 @media (max-width: 600px) {
   .product {
     width: 100%
+    margin-right: 1rem;
   }
 }
