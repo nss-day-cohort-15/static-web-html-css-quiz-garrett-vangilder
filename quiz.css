@@ -1,0 +1,64 @@
+body {
+  margin-left: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product {
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  margin:.75em;
+  padding: 10px;
+  font-family: 'Lora', serif;
+  margin-top: 5em;
+
+}
+
+.product h1 {
+  border-bottom: 1px dotted lightgrey;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 15px;
+}
+
+.product-image{
+    width:100%;
+    display: block;
+}
+
+
+.description {
+  text-align: justify;
+}
+
+.pricing p {
+  font-family: 'Lora', serif;
+  font-weight: 700;
+}
+
+.availability {
+  background: grey;
+  color:yellow;
+}
+
+ footer {
+  font-size: 50%;
+}
+
+
+@media (min-width: 600px) {
+
+.product {
+  display: flex;
+  flex-wrap:wrap;
+  width:25%;
+}
+
+}
+
+@media (max-width: 600px) {
+  .product {
+    width: 100%
+    margin-right: 1rem;
+  }
+}
